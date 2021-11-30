@@ -1,0 +1,61 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+class loginManager
+{
+    private:
+    string password = "foobar00";
+    string userName = "mario";
+    string userNameAttempt;
+    string passwordAttempt;
+    bool accessGranted;
+
+    public:
+        
+        loginManager()
+        {
+            accessGranted = 0;
+        }
+        
+    void login()
+    {
+        cout << "Hey Mario enter your username and password.\nUsermame:";
+        cin >> userNameAttempt;
+
+        if(userNameAttempt==userName){}
+        {
+            cout << "Password:";
+            cin >> passwordAttempt;
+
+            userName = retrieveFile("passWord.dat");
+
+            if(passwordAttempt==password)
+            {
+                cout << "Welcome to GopherChat!";
+            }
+        }
+        
+    }
+    string retrieveFile(const char* p_fileName)
+    {
+        string line;
+        fstream file;
+
+        file.open(p_fileName, ios::in);
+        if ( file.is_open() )
+        {
+            getline(file, line);
+        }
+
+        file.close();
+
+        return string;
+    }
+
+
+};
+int main()
+{
+    loginManager app;
+    app.login();
