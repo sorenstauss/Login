@@ -38,7 +38,7 @@ int main()
 
     decltype(a+b) sum = a > b;
 
-    std::cout << "Hey there, Spookphish! \n \n";
+    std::cout << "Hey there, Soren! \n \n";
     std::cout << "First, what year was the domain registered? \n \n";   //eventually will scrape WHOIS for domain age.
     
     if (2020) {
