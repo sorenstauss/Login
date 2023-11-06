@@ -7,7 +7,7 @@
 #include <math.h>
 
     //Piocent Software
-    /*Copyright (C) 2021 Soren R. Stauss - All Rights Reserved
+    /*Copyright (C) 2023 Soren R. Stauss - All Rights Reserved
      *You many use, distribute or modify any or all this code under the terms of the fully executed 
      *Piocent software license agreement.
     */ 
