@@ -49,7 +49,7 @@ int main()
         std::cout <<"The domain age is acceptable, as it has been registered since 1999. \n \n";
 
     }
-        std::cout << "Copyright (C) 2021 Soren R. Stauss - All Rights Reserved";
+        std::cout << "Copyright (C) 2023 Soren R. Stauss - All Rights Reserved";
 
     return 0;
 }
